@@ -1,0 +1,16 @@
+{
+  "name": "moviebox-proxy",
+  "version": "1.0.0",
+  "description": "Bypass 403 Referrer proxy server for MovieBox streaming",
+  "main": "proxy-server.js",
+  "scripts": {
+    "start": "node proxy-server.js"
+  },
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "request": "^2.88.2"
+  }
+}
